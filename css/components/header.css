@@ -1,0 +1,123 @@
+
+@media (max-width: 1440px) {
+  .header {
+    width: 1080px;
+    font-size: 26px;
+  }
+
+}
+@media (max-width: 1080px) {
+  .header {
+    width: 960px;
+    font-size: 24px;
+  }
+
+}
+@media (max-width: 960px) {
+  .header {
+    width: 700px;
+    font-size: 14px;   
+  }
+
+
+}
+@media (max-width: 700px) {
+  .header {
+    width: 600px;
+    font-size: 12px;   
+  }
+
+}
+@media (max-width: 600px) {
+  .header {
+    
+    width: 500px;
+    font-size: 11px;    
+  }
+
+}
+@media (max-width: 500px) {
+  .header {
+    
+    width: 400px;
+    font-size: 10px;    
+  }
+
+}
+@media (max-width: 400px) {
+  .header {
+    
+    width: 300px;
+    font-size: 8px;    
+  }
+
+}
+@media (max-width: 300px) {
+  .header {
+    
+    width: 200px;
+    font-size: 4px;    
+  }
+
+}
+
+.header{
+
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0px auto ;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+.header ul{
+    list-style-type: none;
+
+    padding:0px;
+    display: flex;
+    flex-grow: 1;
+    width: 80%;
+  justify-content: space-around;
+
+
+}
+
+.btn-presentation a, .btn-sco a, .btn-pro a, .btn-competences a, .btn-interet a {
+    text-decoration: none;
+    color: #650039;
+}
+
+
+.btn-presentation a:hover,.btn-sco a:hover, .btn-pro a:hover, .btn-competences a:hover, .btn-interet:hover{
+    border-bottom: 2px solid black;
+    transition: 0.1s;
+    transform-origin: left;
+    transition-property: left;
+
+
+
+
+}
+
+
+    
+
+.btn-presentation ,.btn-sco, .btn-pro, .btn-competences, .btn-interet {
+    background-color: transparent;
+    text-align: center;
+    margin: 0px 2%;
+
+
+}
+
+ul {
+
+}
+
+
+

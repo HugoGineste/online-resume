@@ -1,0 +1,53 @@
+#liste-sco h1, p {
+
+
+
+}
+
+#liste-sco{
+
+	margin: 1%;
+    flex-wrap: wrap;
+}
+.card-sco{
+	background-position: center;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    background-color: white;
+    text-align: center;
+    margin:1%;
+    display: flex;
+
+}
+
+.card-sco h1{
+	color: red;
+}
+
+.card-sco img{
+	width: 285px;
+
+}
+
+.activity-title h1{
+	color: black;
+}
+.description-activity p{
+	color: red;
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+
+.description-activity h4{
+	color: rgba(110,110,110);
+	font-size: 18px;
+}
+.card-activity:hover {
+	    box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+}
+
+.activity-title{
+	margin-bottom: 20px;
+}

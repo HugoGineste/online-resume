@@ -1,0 +1,21 @@
+
+.ligne {
+background-color: green;
+width: 6px;
+margin-right: 10px;
+position: relative;
+
+}
+
+
+.ligne:after{
+		content: '';
+		background-color: green;
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		margin-right: 10px;
+		position: absolute;
+		left:-12px;
+		top: 49%;
+}

@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro&family=Lora&family=Roboto:wght@100&display=swap");
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/container.css");
+@import url("components/header.css");
+@import url("components/presentation.css");
+@import url("components/competences.css");
+@import url("components/sco.css");
+@import url("components/pro.css");
+@import url("components/cercle.css");
+.banner body{
+
+
+font-family: 'Lora', serif;
+background-color: rgba(255;250;240);
+font-size: 24px;
+margin: 0px;
+}
+
+h1, h2, h3 {
+
+font-size: 35px;
+
+}
+
+a {
+	text-decoration: none;
+	transition: 1s ease;
+
+}
+
+
+.fond{
+	background-color: #fffae7;
+
+}
+
+
+.separation{
+	width: 85%;
+	border-top: 1.2px solid black;
+	background-color: #5A5959;
+}
+.footer{
+		background-color: #5A5959;
+}
+
+body{
+	margin: 0px;
+}
+
+.separation-right{
+	border-right: 1.2px solid black;
+	text-align: center;
+
+}
+
+
+
+
+
